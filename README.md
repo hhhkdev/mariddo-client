@@ -5,6 +5,7 @@
 - prettier
 - husky
 - react-router-dom
+- axios
 - @emotion
   - @emotion/css @emotion/react @emotion/styled @emotion/core
 - @tanstack
