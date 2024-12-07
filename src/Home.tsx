@@ -1,5 +1,7 @@
+import LoginForm from "./widgets/LoginForm";
+
 function HomePage() {
-  return <h1>안녕하세요</h1>;
+  return <LoginForm></LoginForm>;
 }
 
 export default HomePage;
