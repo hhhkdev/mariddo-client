@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import BreadGray from "../../assets/BreadGray.svg";
 
-export const NoRoom = () => {
+export const NoChat = () => {
   return (
     <Wrapper>
       <img src={BreadGray} width={"130px;"}></img>
@@ -24,8 +24,10 @@ const Wrapper = styled.div`
   justify-content: center;
   gap: 32px;
 
-  .no-room-chat {
+  .no-chat-text {
     color: #808080;
     text-align: center;
+    font-size: 20px;
+    letter-spacing: -0.03em;
   }
 `;

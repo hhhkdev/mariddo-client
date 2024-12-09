@@ -27,5 +27,7 @@ const Wrapper = styled.div`
   .no-room-text {
     color: #808080;
     text-align: center;
+    font-size: 20px;
+    letter-spacing: -0.03em;
   }
 `;
