@@ -8,5 +8,6 @@
 - axios
 - @emotion
   - @emotion/css @emotion/react @emotion/styled @emotion/core
+- emotion-reset
 - @tanstack
   - @tanstack/react-query @tanstack/react-query-devtools
