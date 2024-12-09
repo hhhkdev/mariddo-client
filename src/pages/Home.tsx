@@ -1,4 +1,4 @@
-import LoginForm from "./widgets/LoginForm";
+import LoginForm from "../widgets/LoginForm";
 
 function HomePage() {
   return <LoginForm></LoginForm>;

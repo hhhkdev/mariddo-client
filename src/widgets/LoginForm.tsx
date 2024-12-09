@@ -2,6 +2,7 @@ import { useState } from "react";
 import client from "../entities";
 import logo from "../assets/Logo.png";
 import styled from "@emotion/styled";
+import { NoRoom } from "./NotFound/NoRoom";
 
 function LoginForm() {
   const [id, setId] = useState("");
@@ -27,6 +28,7 @@ function LoginForm() {
 
   return (
     <Wrapper>
+      <NoRoom></NoRoom>
       <img src={logo} width={"297px"}></img>
       <div className="subtitle">
         채팅과 함께하는 <b>마니또</b> 서비스
